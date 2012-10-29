@@ -1,0 +1,40 @@
+\chapter{\label{res}Conclusion and Future Work}
+The main purpose of this paper is to investigate what
+benefits the Networks of Information (NetInf) technology
+can bring to the infrastructure that is the foundation for cloud
+computing. In particular, the management of a cloud
+computing infrastructure can be simplified, as it does not
+have to deal with the details of storing and transporting
+information objects.
+
+This paper presents the NetInf architecture,
+and described how it can support cloud computing services
+by offering an API that hides the dynamics of object
+locations and network topologies. One single name
+resolution and routing mechanism is used, regardless of
+whether the dynamics depend on network reconfigurations,
+change of service level agreements, mobility events, re-
+homing events, or any other type of network event. The task
+of designing cloud computing services that are robust against
+object re-locations or changes in the topology of the
+underlying infrastructure network can thereby be
+significantly simplified.
+
+To illustrate the NetInf approach, a novel routing
+mechanism based on late locator construction has been
+described that performs object-to-object routing rather than
+traditional host-to-host routing. This mechanism can operate
+over a highly dynamic network topology and allows for
+scalable handling of a very large number of objects.
+
+Future work includes more detailed investigations on
+how NetInf can handle services, including the use of NetInf
+as a service directory for Web Services. Apart from the
+features described in this paper, also automated and
+distributed processing of information objects are being
+investigated, e.g. to offer a delay-sensitive service as close as
+possible to the end-user. As both NetInf and virtualization
+(Vnet) of network resources are part of a common
+architecture being developed in the 4WARD project,
+studies are being conducted on which additional benefits their
+combination can bring to cloud computing.

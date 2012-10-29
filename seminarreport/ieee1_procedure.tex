@@ -1,0 +1,129 @@
+%\documentclass[conference,10pt]{IEEEtran} 
+%\documentclass[10pt, conference]{IEEEtran}
+\documentclass[a4,twocolumn]{article}
+%\usepackage{latex8}
+\usepackage{times}
+ \usepackage{url}
+%\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb} 
+\usepackage{longtable}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+%\usepackage{textcomp}
+\usepackage[numbers,square]{natbib}
+\usepackage[abs]{overpic}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{subfigure}
+%\usepackage{mdwtab}
+\usepackage{mdwmath}
+\usepackage{booktabs}
+\usepackage{caption}
+%\usepackage{llncsdoc}
+%\documentstyle[times,art10,twocolumn,latex8]{article}
+\usepackage{rotating}
+\usepackage{wrapfig}
+\usepackage{algorithm2e}
+
+% take the % away on next line to produce the final camera-ready version 
+\pagestyle{empty}
+
+
+\begin{document}
+
+
+\incmargin{1em}
+\restylealgo{ruled}\linesnumbered
+
+\begin{procedure}
+  \SetKwData{Left}{left}
+  \SetKwData{This}{this}
+  \SetKwData{Up}{up}
+  \SetKwFunction{Union}{Union}
+  \SetKwFunction{FindCompress}{FindCompress}
+  \SetKwInOut{Input}{input}
+  \SetKwInOut{Output}{output}
+  \SetLine
+\KwIn{Worthiness attributes $\omega$s}
+\KwOut{Decision on admission }
+		
+\ForEach{Object $O_k$}{
+call worthinessHandler()  \tcc*[r]{to get the updated value of aggregate worthiness $W$ of $O_k$}
+\If {$O_k$  is not in the cache}{
+ \If  {$W_k \ge \epsilon$ }{ \tcc*[r]{$\epsilon$ represents worthiness class.  An object is admitted based on this preset value }
+\If {$Cache_{size} \ge $ Upper limit}{ \tcc*[r]{$Cache_{size}$ is current storage  consumption}
+call cacheReplacement()
+}
+admit $O_k$
+}
+}
+}
+\caption{Admission Control()}
+\label{alg:2}
+\end{procedure}
+\incmargin{1em}
+\restylealgo{ruled}\linesnumbered
+
+\begin{algorithm}
+  \SetKwData{Left}{left}
+  \SetKwData{This}{this}
+  \SetKwData{Up}{up}
+  \SetKwFunction{Union}{Union}
+  \SetKwFunction{FindCompress}{FindCompress}
+  \SetKwInOut{Input}{input}
+  \SetKwInOut{Output}{output}
+  \SetLine
+\KwIn{Object's $\omega_{ki}$ s }
+\KwOut{Aggregate Worthiness of $k^{th}$  object $ W_k$}
+\ForEach{Object $O_k$}{
+read $\omega_{ki}$\\
+%compute $W$ $\approx$ \textit{sim} ( $\omega_{ki}$,   \textit{model=mlogit}) \\ { \tcc*[r]{ $W = {\Sigma_i=1}^6  \beta_i  \times \omega_{ki}$}}
+compute  $W$ = {$\Sigma    \hspace{3pt} \begin{matrix} [\beta_i] \end{matrix}
+  \times [\omega_{ki}]$}\\{ \tcc*[r]{ \textit{simulation} of $\omega_{ki}$ using    \textit{mlogit} model)}}
+update $W_k$  { \tcc*[r]{ The aggregate worthiness of $O_k$  ($W_k$) is assigned to recent value}
+}
+}
+\caption{Worthiness Handler}
+%\caption{Worthiness Handler}
+\label{alg:1}
+\end{algorithm}
+\decmargin{1em}
+
+
+
+
+
+\decmargin{1em}
+\incmargin{1em}
+\restylealgo{ruled}\linesnumbered
+\begin{algorithm}
+  \SetKwData{Left}{left}
+  \SetKwData{This}{this}
+  \SetKwData{Up}{up}
+  \SetKwFunction{Union}{Union}
+  \SetKwFunction{FindCompress}{FindCompress}
+  \SetKwInOut{Input}{input}
+  \SetKwInOut{Output}{output}
+  \SetLine
+\KwIn{Worthiness classes}
+\KwOut{Identifying Object to be evicted }
+
+\ForEach {Object $O_k$}{
+\ForEach { Objects within $Class_0$}{ \tcc*[r] {select the least worthy group available} 
+Identify $O_m$ such that  $\Delta_t (O_m) \le \Delta_t (O_k) \forall k$  \tcc*[r] {$\Delta_t$ represents recency factor}
+
+evict($O_m$) \tcc*[r]{evict least recently  object from the least worthy group}
+}
+}
+
+\caption{Replacement scheme}
+\label{alg:3}
+\end{algorithm}
+\decmargin{1em}
+ \end{document}
+ 
+
+

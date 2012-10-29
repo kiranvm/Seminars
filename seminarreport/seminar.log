@@ -1,0 +1,571 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.1)  5 JAN 2012 15:24
+entering extended mode
+ %&-line parsing enabled.
+**seminar.tex
+(./seminar.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(./seminar.cls
+Document Class: seminar 2000/11/03
+
+--------------------------------------------------------------
+ +---+ Thesis Style (thesis.cls) version 1.09, November 2000
+ +---+ for University of Colorado Ph.D. theses/dissertations.
+ * Conforms to the University of Colorado at Boulder Graduate
+ * School "SPECIFICATIONS for Preparation of Bachelor's Thesis
+ * and Doctoral Dissertations" (rev. February 2000).
+--------------------------------------------------------------
+ URL: http://www.Colorado.EDU/ITS/docs/latex/ThesisClass
+
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (./ulem.sty
+\UL@box=\box26
+\UL@hyphenbox=\box27
+\UL@skip=\skip43
+\UL@hook=\toks14
+\UL@height=\dimen103
+\UL@pe=\count88
+\UL@pixel=\dimen104
+\ULC@box=\box28
+Package: ulem 2011/03/18
+\ULdepth=\dimen105
+)
+\c@th@SecNum=\count89
+\c@th@SectionSave=\count90
+\th@SubSubSecSpc=\skip44
+\c@th@storepage=\count91
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count92
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen108
+\epsfysize=\dimen109
+) (./rotating.sty
+Package: rotating 1995/08/22 2.10 Rotation package
+\r@tfl@t=\count93
+\rot@float@box=\box29
+)
+(./eufrak.sty
+Package: eufrak 1997/05/15 v2.2d Euler Fraktur fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuFrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 52.
+)
+Putting page number on short LoF
+(./seminar.aux)
+\openout1 = `seminar.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen110
+\scratchbox=\box30
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen111
+\MPnumerator=\count98
+\everyMPtoPDFconversion=\toks17
+)
+Making Title Page
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 139.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 139.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 139.
+(/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+euf on input line 139.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2009/06/22 v3.00 Euler Fraktur
+)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 \begin{document}
+                      
+? r
+OK, entering \nonstopmode...
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.139 \begin{document}
+                      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.139 \begin{document}
+                      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<figures/meslogo.png, id=1, 138.5175pt x 163.61125pt>
+File: figures/meslogo.png Graphic file (type png)
+
+<use figures/meslogo.png>
+! Undefined control sequence.
+<argument> \@thesistitlebigskip 
+                                
+l.139 \begin{document}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ignorespaces 
+l.139 \begin{document}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \ignorespaces 
+l.139 \begin{document}
+                      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Making Approval Page
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/meslogo.png (PNG
+ copy)>]
+Overfull \hbox (7.62512pt too wide) in paragraph at lines 139--139
+ [] 
+ []
+
+Making Abstract Page
+
+Overfull \hbox (67.14171pt too wide) in paragraph at lines 139--139
+[] []
+ []
+
+[2
+
+]
+centered
+Making Dedication Page
+Making Acknowledgement Page
+
+Overfull \vbox (7.96431pt too high) has occurred while \output is active []
+
+
+[3
+
+
+]
+centered
+Making Abstract Page
+Making ToC Page
+
+Overfull \vbox (7.96431pt too high) has occurred while \output is active []
+
+
+[4
+
+
+]
+centered
+(./seminar.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+)
+\tf@toc=\write3
+\openout3 = `seminar.toc'.
+
+
+Making LoT Page
+[5
+
+]
+centered
+(./seminar.lot)
+\tf@lot=\write4
+\openout4 = `seminar.lot'.
+
+
+Making LoF Page
+Making Short LoF...
+[6
+
+]
+centered
+Short Chapter (page numbered)
+(./seminar.lof)
+\tf@lof=\write5
+\openout5 = `seminar.lof'.
+
+
+
+
+-------------------Beginning Body----------------------
+
+
+
+Overfull \vbox (7.96431pt too high) has occurred while \output is active []
+
+
+[7
+
+] (./macros.tex
+\c@th@theorem=\count99
+) (./ch1.tex
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
+centered
+<1.jpg, id=31, 1371.1225pt x 770.88pt>
+File: 1.jpg Graphic file (type jpg)
+ <use 1.jpg>
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [1
+
+
+ <./1.jpg>]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[2] <2.jpg, id=38, 1027.84pt x 770.88pt>
+File: 2.jpg Graphic file (type jpg)
+ <use 2.jpg>
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+) (./ch2.tex
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[3 <./2.jpg>]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[4]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
+centered
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[5
+
+]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[7]) (./ch4.tex
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[8]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
+centered
+[9
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[10]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[11]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[12] <4.jpg, id=71, 597.23125pt x 448.67625pt>
+File: 4.jpg Graphic file (type jpg)
+ <use 4.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[13]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[14 <./4.jpg>] <5.jpg, id=78, 1185.42876pt x 708.6475pt>
+File: 5.jpg Graphic file (type jpg)
+ <use 5.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 180.
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[15]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+) (./ch3.tex
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[16 <./5.jpg>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
+centered
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[17
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ <3.jpg, id=89, 1371.1225pt x 770.88pt>
+File: 3.jpg Graphic file (type jpg)
+ <use 3.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (7.86171pt too wide) in paragraph at lines 71--77
+[]\OT1/cmr/m/n/12 The API in-cludes meth-ods such as pub-lish(objectName), re-s
+olve(objectName),
+ []
+
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[18] <4.png, id=94, 971.63pt x 628.3475pt>
+File: 4.png Graphic file (type png)
+ <use 4.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[19 <./3.jpg>]) (./ch8.tex
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[20]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[21 <./4.png (PNG copy)>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
+centered
+) [22
+
+]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[23]
+centered
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ∂ in font cmr12!
+
+Underfull \hbox (badness 2717) in paragraph at lines 172--173
+\OT1/cmr/m/n/12 Eighth In-ter-na-tional Con-fer-ence on Net-works (ICN), Gosier
+, Guade-
+ []
+
+
+! LaTeX Error: \begin{singlespace} on input line 162 ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 \end{enumerate}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{th@OldBib} on input line 162 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[24
+
+
+] (./seminar.aux) )
+(\end occurred inside a group at level 2)
+
+### semi simple group (level 2) entered at line 162 (\begingroup)
+### semi simple group (level 1) entered at line 162 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 1567 strings out of 495061
+ 19768 string characters out of 1182621
+ 77788 words of memory out of 3000000
+ 4715 multiletter control sequences out of 15000+50000
+ 13197 words of font info for 49 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 27i,5n,28p,644b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/euler/eufm10.pfb>
+Output written on seminar.pdf (31 pages, 827186 bytes).
+PDF statistics:
+ 137 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+

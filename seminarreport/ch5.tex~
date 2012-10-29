@@ -1,0 +1,47 @@
+
+\chapter{Performance Evaluation}
+To assess the feasibility of system Cosdes, we conduct several
+experiments to explore its efficiency and detection results.
+The real spam data sets used in the experiments are from the
+e-mail servers of Computer Center in National Taiwan
+University, which has over 30,000 students. Since the ground
+truth of real e-mail streams is unavailable, spams are
+extracted from the well-known existing system, SpamAssassin.3 Concerning hams, we not only include public data sets
+(around 4,000 e-mails) provided by SpamAssassin,4 but also
+obtain from volunteers. There are about 60,000 spams per day
+and a set of 7,000 or so hams in the data set. Note that
+numerous related works have evaluated the proposed
+methods with static databases. However, to access the
+performance of spam detection system with near-duplicate
+matching scheme, real e-mail streams are more appropriate
+than static data sets. Therefore, in this paper, we use
+university-scale e-mail streams as the experimental data sets
+to better simulate the e-mail environment.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=6cm]{10.jpg}
+\caption{Execution time and memory usage}
+\end{center}
+\end{figure}
+
+The processes of
+generating each digest in Digest and MultiDigest are
+identical. Although Sarafijanovic’s work claims that using
+multiple digests can enhance the robustness of near-duplicate
+spam detection system, these two works have not been
+validated by real e-mail streams. Besides, Yoshida’s work
+considers maintaining a direct-mapped cache to facilitate the
+process of matching. In the experiments of his work, there
+are 10 million spams in the database and 10 percent of hash
+values are copied in the cache. However, to fairly compare the
+detection performance, the cache mechanism of Yoshida’s
+work is not included in our experiments, meaning that all
+spams in the database are used for detection.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=7cm]{11.jpg}
+\caption{Performance of detection results}
+\end{center}
+\end{figure}

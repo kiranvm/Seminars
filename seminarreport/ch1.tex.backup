@@ -1,0 +1,49 @@
+\chapter{Introduction}
+The topic of Cloud Computing is gaining more and more
+attention in the service research community. The main idea is
+to make applications available on flexible execution
+environments primarily located in the Internet. Several
+flavours are known, and three important ones are depicted in
+the Figure 1.1 .
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=8cm]{1.jpg}
+\caption{Cloud Computing Overview}
+\end{center}
+\end{figure}
+
+Infrastructure as a service refers to the sharing of
+hardware resources for executing services, typically using
+virtualization technology. With this so-called Infrastructure
+as a Service (IaaS) approach, potentially multiple users use
+existing resources. The resources can easily be scaled up
+when demand increases, and are typically charged for on a
+per-pay-use basis. In the Platform as a Service (PaaS)
+approach, the offering also includes a software execution
+environment, such as an application server. In the Software
+as a Service approach (SaaS), complete applications are
+hosted on the Internet so that e.g. your word processing
+software isn’t installed locally on your PC anymore but runs
+on a server in the network and is accessed through a web
+browser.
+
+At the same time, the networking research community is
+working on exploring the benefits arising from the new
+paradigm of content-centric or information-centric
+networking. Traditional networking architectures for the
+PSTN and the Internet solve the problem of connecting
+terminals or hosts in order to support a specific application
+such as telephony or WWW. To this end, traditional naming
+and addressing schemes employ box- or domain-oriented
+identities such as E.164 numbers for telephony, or IP
+addresses and URLs for the Internet. However, the end user
+is typically interested in reaching a destination object that
+sits behind or in the host, such as a human being or a file,
+rather than communicating with the host itself. As the
+destination objects move to new hosts, the host- or network-dependent identities of these objects must be updated.
+Information-centric networking provides a solution to these
+issues by directly addressing the information objects instead
+of using the host-dependent or domain-dependent addressing
+schemes.
+
