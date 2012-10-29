@@ -1,0 +1,41 @@
+\chapter{Preliminaries}
+In this section, the definition of near-duplicate, in this
+paper, is presented .
+
+%
+
+%
+%
+\section{Definition of Near-Duplicate}
+%
+%
+The central idea of near-duplicate spam detection is to exploit
+reported known spams to block subsequent ones which have
+similar content. For different forms of e-mail representation,
+the definitions of similarity between two e-mails are diverse.
+Unlike most prior works representing e-mails based mainly
+on content text, we investigate representing each e-mail
+using an HTML tag sequence, which depicts the layout
+structure of e-mail, and look forward to more effectively
+capturing the near-duplicate phenomenon of spams. Definition of anchor tag is given as follows:
+
+\textbf \{Definition\} (anchor). The tag \{ anchor \} is one type of
+newly defined tag that records the domain name or the e-mail
+address in an anchor tag.
+
+For example, the anchor tag \{a href=“http://arbor.ee.
+ntu.edu.tw/index.htm”\} is transformed to \{arbor.ee.ntu.
+edu.tw\}. The anchor tag \{a href=“mailto:cytseng@arbor.
+ee.ntu.edu.tw”\} is transformed to \{cytseng@arbor.ee.
+ntu.edu.tw\}. The purpose of creating the (anchor) tag is
+to minimize the false positive rate when the number of tags
+in an e-mail abstraction is short. The less the number of tags
+in an e-mail abstraction, the more possible that a ham may
+be matched with known spams and be misclassified as a
+spam. Therefore, when the number of tags in an e-mail
+abstraction is smaller than a predefined threshold, for each
+anchor tag (a), we specifically record the targeted domain
+name or e-mail address, which is a significant clue for
+identifying spams.
+
+

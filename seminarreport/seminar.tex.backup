@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%  see documentation for information about  %%%%%%%%%%
+%%%%%%%%%%%  the options (11pt, defaultstyle, etc.)   %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%  http://www.Colorado.EDU/ITS/docs/latex/ThesisClass/  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%	\documentclass[defaultstyle]{thesis}
+%	\documentclass[typewriterstyle]{thesis}
+% 	\documentclass[modernstyle]{thesis}
+%	\documentclass[modernstyle,12pt]{thesis}
+	\documentclass[modernstyle,12pt]{seminar}
+
+% 	\documentclass[modernstyle,11pt]{thesis}
+% 	\documentclass[defaultstyle,12pt]{thesis}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%    load any packages which are needed    %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphics}
+\usepackage{graphicx}
+
+\usepackage{latexsym}		% to get LASY symbols
+\usepackage{epsfig}		% to insert PostScript figures
+\usepackage{rotating}		% for sideways tables/figures
+\usepackage{eufrak}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%       all the preamble material:       %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%% Parameters To be populated by the author START %%%%%%%%%%%%%
+\title{Networking of Information And Cloud Computing}
+\author{Kiran V}{}
+\advisor{}{Mr. Aneesh M Haneef}			%  #1 {title}
+\rollnum{08103026}                                  % roll number
+\degreeyear{2011-12}                                     % academic year
+%%%%%%%%%%%% Parameters To be populated by the author END %%%%%%%%%%%%%
+
+
+
+%\otherdegrees{B.A., North Dakota State University, 1994 \\
+%	      M.S., University of Reno, 1997}
+
+\degree{\Large {$\mathfrak {Bachelor\; of\; Technology}$}}		%  #1 {long descr.}
+	{ Computer Science and Engineering}		%  #2 {short descr.}
+
+\dept{Department of}			%  #1 {designation}
+	{Computer Science and Engineering}		%  #2 {name}
+
+
+
+
+\reader{Dr. P.P. Abdul Haleem}		%  2nd person to sign thesis
+%\readerThree{Ms.~Thora Nea}		%  3rd person to sign thesis
+% \readerFour{Mr.~Alfred Remington}	%  4rd person to sign thesis
+
+
+\inst{MES College of Engineering}                   % institution
+
+%\deg{Master of Technology}		             %  degree name (in certificate)
+\course{Computer Science and Engineering}    %  course name
+
+%%%%%%%%%%%% Add your abstract here! START %%%%%%%%%%%%%
+
+\abstract {\OnePageChapter % one page only ??
+Cloud computing is making it possible to separate
+the process of building an infrastructure for service
+provisioning from the business of providing end user services.
+Today, such infrastructures are normally provided in large
+data centres and the applications are executed remotely from
+the users. One reason for this is that cloud computing requires
+a reasonably stable infrastructure and networking
+environment, largely due to management reasons. Networking
+of Information (NetInf) is an information centric networking
+paradigm that can support cloud computing by providing new
+possibilities for network transport and storage. It offers direct
+access to information objects through a simple API,
+independent of their location in the network. This abstraction
+can hide much of the complexity of storage and network
+transport systems that cloud computing today has to deal with.
+In this paper we analyze how cloud computing and NetInf can
+be combined to make cloud computing infrastructures easier to
+manage, and potentially enable deployment in smaller and
+more dynamic networking environments. NetInf should thus
+be understood as an enhancement to the infrastructure for
+cloud computing rather than a change to cloud computing
+technology as such. To illustrate the approach taken by NetInf,
+we also describe how it can be implemented by introducing a
+specific name resolution and routing mechanism.
+
+%%%%%%%%%%%% Add your abstract here! END %%%%%%%%%%%%%
+}
+%%%%%%%%%%%% Add your acknowledgements here! START %%%%%%%%%%%%%
+\acknowledgements{	\OnePageChapter	% *MUST* BE ONLY ONE PAGE!
+I wish to record my indebtedness and thankfulness 
+to all who helped me in preparing this report\index{seminar report} titled 
+\emph{\textbf{Networking of Information And Cloud Computing}} and present it in a satisfactory way. This report is part of my work related to the paper \textbf{CS04 707(P) Seminar}.
+
+I am especially thankful to my 
+guide and supervisor \textbf{Mr. Aneesh M Haneef}  in the Department of \textbf{Computer Science \& Engineering}  
+for giving me valuable suggestions and 
+critical inputs in the preparation of this report. 
+Also to the seminar co-ordinators \textbf{Mr.Sherikh K K \& Ms. Ashly Thomas} for their support throughout the seminar.
+I am also thankful to \textbf{Dr.Abdul Haleem P P}, 
+the Head of \textbf{Computer Science \& Engineering}  
+for his guidance and encouragement throughout the seminar. 
+
+My friends in my class have always been 
+helpful and I am grateful to them for 
+patiently listening to  my presentation. 
+
+\begin{raggedright}
+\vspace*{10mm}
+\hspace*{100mm}
+\textbf{Kiran V}
+\end{raggedright}
+}
+%%%%%%%%%%%% Add your acknowledgements here! END %%%%%%%%%%%%%
+
+
+\ToCisShort	% a 1-page Table of Contents ??
+
+\LoFisShort	% a 1-page List of Figures ??
+% \emptyLoF	% no List of Figures at all ??
+
+% \LoTisShort	% a 1-page List of Tables ??
+% \emptyLoT	% no List of Tables at all ??
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%       BEGIN DOCUMENT...         %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%  Weird footnotes??
+%%%%  default=\arabic; \roman, \Roman, \alph, \Alph, \fnsymbol
+%	\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%	\setcounter{footnote}{0}
+
+\begin{document}
+
+
+
+\input macros.tex
+
+%% all chapters can be input like this....%%
+\input ch1.tex
+\input ch2.tex
+\input ch4.tex
+\input ch3.tex
+% \input ch5.tex
+% \input ch6.tex
+% \input ch7.tex
+\input ch8.tex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%  Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+% \addcontentsline{toc}{chapter}{\quad Bibliography}
+
+
+\chapter*{Bibliography}
+\begin{enumerate}
+ \item M.T. Chang, W.-T. Yih, and C. Meek, “Partitioned Logistic Regression for Spam Filtering,” Proc. 14th ACM SIGKDD Int’l Conf. Knowledge Discovery and Data mining (KDD), pp. 97-105, 2008.
+
+ \item S. Chhabra, W.S. Yerazunis, and C. Siefkes, “Spam Filtering Using a Markov Random Field Model with Variable Weighting Schemas,” Proc. Fourth IEEE Int’l Conf. Data Mining (ICDM), pp. 347-350, 2004.
+
+ \item P.-A. Chirita, J. Diederich, and W. Nejdl, “Mailrank: Using Ranking for Spam Detection,” Proc. 14th ACM Int’l Conf. Information and Knowledge Management (CIKM), pp. 373-380, 2005.
+
+ \item R. Clayton, “Email Traffic: A Quantitative Snapshot,” Proc. of the Fourth Conf. Email and Anti-Spam (CEAS), 2007.
+
+ \item A.C. Cosoi, “A False Positive Safe Neural Network; The Followers of the Anatrim Waves,” Proc. MIT Spam Conf., 2008.
+ 
+ \item E. Blanzieri and A. Bryl, “Evaluation of the Highest Probability SVM Nearest Neighbor Classifier with Variable Relative Error Cost,” Proc. Fourth Conf. Email and Anti-Spam (CEAS), 2007.  
+\end{enumerate}
+
+% \bibitem{}
+% \bibitem{}
+% \bibitem{}
+% \bibitem{}
+% \bibitem{}
+% \end{thebibliography}
+%  
+\end{document}

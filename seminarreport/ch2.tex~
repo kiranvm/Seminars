@@ -1,0 +1,123 @@
+\chapter{How Cloud Computing Can Benefit From NETINF}
+Cloud computing is today offering an efficient
+environment for quick deployment of new services. In
+particular, it offers unrivalled opportunities for quickly
+scaling up the capacity for services that suddenly become
+popular. Infrastructure as a Service (IaaS) and Platform as a
+Service (PaaS) approaches have proven to be effective
+means for separating the service deployment from the
+provisioning of the required service infrastructure. The latter
+obviously is a much slower process as it includes hardware
+installation and possibly extended physical facilities, as well
+as establishment of new communication infrastructure. One
+of the major hurdles with current cloud computing is the
+management costs of the computing, storage and networking
+facilities. To make the management tractable, today’s
+approach to cloud computing depends on the site
+infrastructure and the networking topology being relatively
+stable.
+The main benefit of what is presented in this paper is not
+a way to improve the cloud computing functionality as such
+by use of NetInf. It rather argue that by basing the cloud
+computing infrastructure on NetInf, many of today’s issues
+with management of cloud computing infrastructures can be
+eased.
+In this light, distributing cloud computing service objects
+across a more dynamic networking environment like moving
+networks, or a home networking environment, is a very
+difficult task with today’s cloud computing technology. In
+addition, cloud computing service objects need to be copied
+between servers, e.g. to realize load sharing. When using
+existing technologies, such issues would need to be handled
+by a combination of more or less automated network
+management tools, routing protocols, and add-on protocols
+for host and site multihoming, as well as host and network
+mobility. This adds substantial complexity to the system, and
+the mechanisms may interact with each other as well as with
+NATs and firewalls in an unpredictable fashion.
+
+The following paragraphs illustrate how introducing
+NetInf technology can help addressing the above cloud
+computing challenges.
+
+The Network of Information paradigm allows for a new
+approach to the problem of dynamic network topologies.
+While cloud computing brings about revolutionary
+technology to resource sharing, the Network of Information
+is a new approach to accessing information (in its widest
+sense) on a network. It brings a new abstraction to the
+networking layer: the notion of information objects.
+Compared to existing networking paradigms, this new
+approach is designed for directly accessing the information,
+rather than addressing it indirectly via the host or network
+domain containing the information. The location of the
+information thereby becomes secondary, which makes it
+much easier to deal with configuration changes and mobility.
+The addressing used in NetInf fully relies on naming the
+information itself, and not the location or network domain it
+is retrieved from. For a cloud computing platform, this
+significantly simplifies the way data is handled.
+This property also allows for hiding reconfigurations of the
+supporting nodes and networks from the cloud computing
+platform. It could potentially also make cloud computing
+deployable on a smaller scale, like home networking, and
+even in environments with mobile nodes and networks.
+
+When the access of information objects is no longer done
+in an application-specific fashion, integration and
+composition of applications become easier, since they all
+access information using the same naming scheme. Access
+control is a topic of its own right in the NetInf work, but
+outside the scope of this paper.
+
+The media distribution capabilities of NetInf provide a
+part of implementing IaaS. A part of IaaS or PaaS offerings
+is often the capability to efficiently distribute large amounts
+of content, e.g. video files. This can be realized via content
+distribution overlays, such as the well-known Akamai CDN. Content distribution functionality is
+provided natively in a NetInf-enabled network, realized by
+the functions introduced in the previous section. Information
+is simply requested by specifying its name, while a NetInf-enhanced networking layer takes care of choosing the
+optimal distribution mechanism, including caching and
+source selection. Similar to the popular peer-to-peer systems,
+clients can also serve as a new source for already
+downloaded information.
+NetInf functionality will also support services and service
+composition. Without aiming to become a service platform
+in itself, the idea is that services can be treated as a type of
+information objects. Also a service needs to be
+unambiguously identified, and can have multiple instances in
+the network. Meta-data can be used to describe the
+characteristics of the service, and to support the proper
+selection of a service. This applies both to cases where the
+selection takes place manually, e.g. by a user browsing a
+service registry, and to cases where this happens in an
+automated fashion, e.g. in a service composition engine. In
+this way many mechanisms such as load balancing and
+mobility that are available through NetInf can be reused also
+for services.
+
+Through a close cooperation of cloud computing and
+networking of information, network nodes and network
+resources, including various storage systems, have the
+potential of becoming truly transparent to the applications
+and the users. The natural evolution of networking is thus to
+move from networking of nodes to networking of
+information objects. But for users to feel comfortable with
+the, initially appealing, idea of just dropping their
+information objects into the network, for storage, processing
+and distribution, there are a number of issues that need to be
+addressed and are currently being worked on in the 4WARD
+project. These include security issues like confidentiality,
+integrity, privacy and access rights. Also requirements on
+reliability and availability will pose challenges. While these
+all are first rank challenges, the major hurdle
+on the way to networking of information lies in the
+scalability issues associated with changing the granularity of
+networking from, relatively, few nodes to the extremely
+plentiful information objects themselves. 
+
+
+
+
+
